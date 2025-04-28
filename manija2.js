@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
 
         // Mostrar los resultados finales con los promedios de goles y las probabilidades
-        let mensajeProbabilidad = "Resultado esperado Defensores De Belgrano VS " + rivalEncontrado.rival + ":\n\n" +
+        let mensajeProbabilidad = "Resultado esperado Defensores De Belgrano VS Rival:\n\n" +
             "Goles de Defensores: " + Math.round(promedioGolesDefensores) + " " + probabilidadGolesDefensores.toFixed(2) + "%\n" +
             "Goles del rival: " + Math.round(promedioGolesRival) + " " + probabilidadGolesRival.toFixed(2) + "%\n" +
             "Resultado esperado: " + resultadoEsperado;
